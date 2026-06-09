@@ -39,7 +39,6 @@ churn_prediction/
 │       └── shap_summary.png
 ├── requirements.txt
 └── README.md
-
 ---
 
 ## ⚙️ Tech Stack
