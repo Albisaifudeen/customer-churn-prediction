@@ -25,6 +25,8 @@ Telecom companies lose revenue when customers leave. This project predicts which
 ---
 
 ## 🏗️ Project Structure
+
+```
 churn_prediction/
 ├── src/
 │   ├── preprocess.py      # Data cleaning & encoding
@@ -39,7 +41,7 @@ churn_prediction/
 │       └── shap_summary.png
 ├── requirements.txt
 └── README.md
----
+```
 
 ## ⚙️ Tech Stack
 
