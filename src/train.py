@@ -9,7 +9,7 @@ def train():
     df = load_and_clean()
     X_train, X_test, y_train, y_test = encode_and_split(df)
 
-    # ✅ MLflow 3.x requires SQLite backend
+    # MLflow 3.x requires SQLite backend
     db_path = os.path.join(BASE_DIR, "mlflow.db")
     mlflow.set_tracking_uri(f"sqlite:///{db_path}")
     mlflow.set_experiment("churn_prediction")
