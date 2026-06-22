@@ -33,7 +33,7 @@ class CustomerData(BaseModel):
 def predict(customer: CustomerData):
     try:
         result = predict_single(customer.dict())
-        return result                    # ✅ just return result directly
+        return result                   
     except Exception as e:
         return JSONResponse(status_code=500, content={"error": str(e)})
 
