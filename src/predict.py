@@ -18,5 +18,5 @@ def predict_single(input_dict: dict):
     return {
         "churn_probability": round(proba, 4),
         "will_churn": bool(proba > 0.5),
-        "verdict": "⚠️ Customer WILL CHURN" if proba > 0.5 else "✅ Customer will STAY"
+        "verdict": "Customer WILL CHURN" if proba > 0.5 else "Customer will STAY"
     }
